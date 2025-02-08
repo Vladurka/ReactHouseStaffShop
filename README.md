@@ -1,4 +1,4 @@
-##🛋️ Home Furniture Store
+## 🛋️ Home Furniture Store
 
 ## 📌 Project Description
 A simple online furniture store built with React, featuring a product catalog and shopping cart functionality.

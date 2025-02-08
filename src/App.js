@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Items from "./components/Items";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component { 
+  constructor(props){
+    super(props)
+    this.state ={
+      orders: []
+    }
+    this.addToOrder = this.addToOrder.bind(this);
+  }
+
+  render(){
+    return (
+      <div className="wrapper">
+        <Header orders={this.state.orders}/>
+        <Items onAdd={this.addToOrder}/>
+        <Footer />
+      </div>
+    );
+  }
+
+  addToOrder(item){
+    this.setState({orders: [...this.state.orders, item]});
+  }
 }
 
 export default App;

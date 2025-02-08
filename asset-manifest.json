@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ReactHouseStaffShop/static/css/main.2992cf94.css",
+    "main.js": "/ReactHouseStaffShop/static/js/main.88ddf733.js",
+    "static/media/bg.jpg": "/ReactHouseStaffShop/static/media/bg.cc1608892aa3fb4ce9f4.jpg",
+    "index.html": "/ReactHouseStaffShop/index.html",
+    "main.2992cf94.css.map": "/ReactHouseStaffShop/static/css/main.2992cf94.css.map",
+    "main.88ddf733.js.map": "/ReactHouseStaffShop/static/js/main.88ddf733.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2992cf94.css",
+    "static/js/main.88ddf733.js"
+  ]
+}
